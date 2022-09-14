@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Restro POS System</title>
+    <title>POS System</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -14,7 +14,7 @@
     <style>
         html,
         body {
-            background-color: #fff;
+            background-color: #000;
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
