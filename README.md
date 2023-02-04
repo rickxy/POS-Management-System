@@ -16,6 +16,7 @@ Password: 123456
 **Customer Login Details**
 
 Email	: customer@mail.com
+
 Password: 123456
 
 ![Screenshot (12)](https://user-images.githubusercontent.com/36708000/190139937-c5350678-ccd1-402b-a0d0-e96d9a8f612d.png)
