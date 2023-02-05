@@ -92,6 +92,7 @@ require_once('partials/_head.php');
     </div>
     
     <!-- Argon Scripts -->
+    
     <?php
     require_once('partials/_scripts.php');
     ?>
