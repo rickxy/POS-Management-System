@@ -9,6 +9,7 @@ require_once('partials/_head.php');
 <body>
     
     <!-- Sidenav -->
+    
     <?php
     require_once('partials/_sidebar.php');
     ?>
