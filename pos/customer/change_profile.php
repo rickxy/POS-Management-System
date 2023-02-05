@@ -246,7 +246,9 @@ require_once('partials/_head.php');
                         </div>
                     </div>
                 </div>
+      
                 <!-- Footer -->
+      
             <?php
             require_once('partials/_footer.php');
         }
