@@ -84,6 +84,7 @@ if (isset($_POST['changePassword'])) {
         }
     }
 }
+
 require_once('partials/_head.php');
 ?>
 
