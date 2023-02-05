@@ -30,6 +30,7 @@ if (isset($_POST['ChangeProfile'])) {
     }
   }
 }
+
 if (isset($_POST['changePassword'])) {
 
     //Change Password
