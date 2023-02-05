@@ -4,6 +4,7 @@ include('config/config.php');
 include('config/checklogin.php');
 include('config/code-generator.php');
 
+
 check_login();
 if (isset($_POST['ChangeProfile'])) {
   //Prevent Posting Blank Values
