@@ -9,6 +9,7 @@ check_login();
 //Add Customer
 if (isset($_POST['addCustomer'])) {
   //Prevent Posting Blank Values
+  
   if (empty($_POST["customer_phoneno"]) || empty($_POST["customer_name"]) || empty($_POST['customer_email']) || empty($_POST['customer_password'])) {
     $err = "Blank Values Not Accepted";
   } else {
