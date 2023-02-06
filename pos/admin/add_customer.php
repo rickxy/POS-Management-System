@@ -59,6 +59,7 @@ require_once('partials/_head.php');
         </div>
       </div>
     </div>
+    
     <!-- Page content -->
     <div class="container-fluid mt--8">
       <!-- Table -->
