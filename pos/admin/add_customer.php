@@ -26,6 +26,7 @@ if (isset($_POST['addCustomer'])) {
     //bind paramaters
     $rc = $postStmt->bind_param('sssss', $customer_id, $customer_name, $customer_phoneno, $customer_email, $customer_password);
     $postStmt->execute();
+    
     //declare a varible which will be passed to alert function
     if ($postStmt) {
       $success = "Customer Added" && header("refresh:1; url=customes.php");
