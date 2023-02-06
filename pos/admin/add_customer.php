@@ -22,6 +22,7 @@ if (isset($_POST['addCustomer'])) {
     //Insert Captured information to a database table
     $postQuery = "INSERT INTO rpos_customers (customer_id, customer_name, customer_phoneno, customer_email, customer_password) VALUES(?,?,?,?,?)";
     $postStmt = $mysqli->prepare($postQuery);
+    
     //bind paramaters
     $rc = $postStmt->bind_param('sssss', $customer_id, $customer_name, $customer_phoneno, $customer_email, $customer_password);
     $postStmt->execute();
