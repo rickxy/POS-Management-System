@@ -12,6 +12,7 @@ require_once('partials/_analytics.php');
   <?php
   require_once('partials/_sidebar.php');
   ?>
+	
   <!-- Main content -->
   <div class="main-content">
     <!-- Top navbar -->
