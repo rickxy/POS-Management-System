@@ -6,6 +6,7 @@ check_login();
 require_once('partials/_head.php');
 require_once('partials/_analytics.php');
 ?>
+
 <body>
   <!-- Sidenav -->
   <?php
