@@ -104,6 +104,7 @@ require_once('partials/_analytics.php');
         </div>
       </div>
     </div>
+	  
     <!-- Page content -->
     <div class="container-fluid mt--7">
       <div class="row mt-5">
