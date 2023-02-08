@@ -16,6 +16,7 @@ require_once('partials/_analytics.php');
   <!-- Main content -->
   <div class="main-content">
     <!-- Top navbar -->
+	  
     <?php
     require_once('partials/_topnav.php');
     ?>
