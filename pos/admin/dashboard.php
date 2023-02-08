@@ -7,7 +7,6 @@ require_once('partials/_head.php');
 require_once('partials/_analytics.php');
 ?>
 <body>
-
   <!-- Sidenav -->
   <?php
   require_once('partials/_sidebar.php');
