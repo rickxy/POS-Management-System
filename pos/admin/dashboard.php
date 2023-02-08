@@ -134,7 +134,6 @@ require_once('partials/_analytics.php');
                   $res = $stmt->get_result();
                   while ($order = $res->fetch_object()) {
                     $total = ($order->prod_price * $order->prod_qty);
-
                   ?>
                     <tr>
                       <th class="text-success" scope="row"><?php echo $order->order_code; ?></th>
