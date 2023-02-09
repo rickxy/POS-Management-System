@@ -7,6 +7,7 @@ $stmt = $mysqli->prepare($ret);
 $stmt->execute(); //ok
 $res = $stmt->get_result();
 $cnt = 1;
+
 while ($row = $res->fetch_object()) {
     $tariffCost = $row->cost_per_litre;
 
